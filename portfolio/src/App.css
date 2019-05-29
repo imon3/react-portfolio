@@ -5,6 +5,11 @@
     font-weight: 600;
 }
 
+.header .navigation .link:hover {
+    color: purple;
+    font-size: 2.5rem;
+}
+
 .background {
     position: fixed;
     z-index: -10;
@@ -39,6 +44,7 @@
     color: #fff;
     margin: auto;
     width: 75%;
+    text-align: center;
 }
 
 .job-title-banner .job-title {
@@ -46,6 +52,27 @@
 }
 
 .job-title-banner p {
-    /* width: 75%; */
     font-size: 1.4rem;
+}
+
+.job-title-banner hr {
+    border-top: 2px dotted #fff;
+    margin: auto;
+    width: 50%;
+}
+
+.job-title-banner .social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.job-title-banner .social-links i {
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+}
+
+.job-title-banner .social-links i:hover {
+    color: purple;
+    background-color: yellow;
 }

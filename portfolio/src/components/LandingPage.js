@@ -14,6 +14,25 @@ class LandingPage extends React.Component {
                 HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT | REDUX | NODEJS |
                 EXPRESS | SQL
               </p>
+
+              <hr />
+
+              <div className="social-links">
+                <a
+                  href="https://github.com/imon3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/imonhimi-ovbude"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
